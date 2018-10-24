@@ -17,15 +17,6 @@
     "lastName": {
       "type": "string",
       "required": true
-    },
-    "dob": {
-      "type": "date"
-    },
-    "enlistDate": {
-      "type": "date"
-    },
-    "separationDate": {
-      "type": "date"
     }
   },
   "validations": [],
