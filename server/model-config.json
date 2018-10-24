@@ -40,7 +40,7 @@
     "public": true
   },
   "chart": {
-    "dataSource": null,
+    "dataSource": "mongo",
     "public": true
   }
 }
