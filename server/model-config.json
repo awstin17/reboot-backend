@@ -39,6 +39,10 @@
     "dataSource": "mongo",
     "public": true
   },
+  "chart": {
+    "dataSource": "mongo",
+    "public": true
+  },
   "timeline": {
     "dataSource": "mongo",
     "public": true
