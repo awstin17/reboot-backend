@@ -40,7 +40,7 @@
     "public": true
   },
   "timeline": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   }
 }
