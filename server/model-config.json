@@ -38,5 +38,9 @@
   "appUser": {
     "dataSource": "mongo",
     "public": true
+  },
+  "timeline": {
+    "dataSource": "db",
+    "public": true
   }
 }
