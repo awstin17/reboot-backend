@@ -1,0 +1,25 @@
+{
+  "name": "timeline",
+  "plural": "timelines",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "lastModified": {
+      "type": "date",
+      "required": true
+    },
+    "content": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
