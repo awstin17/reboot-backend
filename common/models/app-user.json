@@ -17,7 +17,56 @@
     "lastName": {
       "type": "string",
       "required": true
-    }
+    }, 
+    "militaryBranch": {
+      "type": "string",
+      "required": false 
+    },
+    "veteranOrActive": {
+      "type": "string",
+      "required": false 
+    },
+    "separationDate": {
+      "type": "string",
+      "required": false 
+    },
+    "disabilityStatus": {
+      "type": "string",
+      "required": false 
+    },
+    "disabilityPercentage": {
+      "type": "string",
+      "required": false 
+    },
+    "employmentStatus": {
+      "type": "string",
+      "required": false 
+    },
+    "lastEmployed": {
+      "type": "string",
+      "required": false 
+    },
+    "maritalStatus": {
+      "type": "string",
+      "required": false 
+    },
+    "militaryRank": {
+      "type": "string",
+      "required": false 
+    },
+    "officerRank": {
+      "type": "string",
+      "required": false 
+    },
+    "enlistingPay": {
+      "type": "string",
+      "required": false 
+    },
+    "codeIdentifier": {
+      "type": "string",
+      "required": false 
+    } 
+
   },
   "validations": [],
   "relations": {},
