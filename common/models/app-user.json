@@ -1,0 +1,44 @@
+{
+  "name": "appUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "dob": {
+      "type": "date"
+    },
+    "enlistDate": {
+      "type": "date"
+    },
+    "separationDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "charts": {
+      "type": "hasMany",
+      "model": "chart",
+      "foreignKey": "appUserId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
