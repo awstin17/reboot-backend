@@ -11,9 +11,8 @@
       "required": true
     },
     "data": {
-      "type": [
-        "number"
-      ],
+      "type": {}
+      ,
       "required": true
     }
   },
