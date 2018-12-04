@@ -3,6 +3,6 @@
 module.exports = {
   mongo: {
     connector: 'mongodb',
-    url: process.env.DATABASE_URL
+    url: 'mongodb://username:password2@ds225294.mlab.com:25294/ssf-reboot-demo'
   },
 };
