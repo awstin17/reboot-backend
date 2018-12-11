@@ -11,9 +11,16 @@
       "required": true
     },
     "data": {
-      "type": [
-        "number"
-      ],
+      "type": {
+        "Career": "number", 
+        "Finance": "number",
+        "PersonalGrowth": "number", 
+        "Health": "number", 
+        "Family": "number",
+        "Relationships": "number", 
+        "SocialLife": "number", 
+        "Attitude": "number"
+      },
       "required": true
     }
   },
